@@ -1,9 +1,35 @@
+header .main-nav {
+  /* position: sticky; */
+  /* top: 20; */
+  /* left: 0; */
+  /* right: 10%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3px 20px;
+}
+
 #my-form {
   height: 300px;
   width: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   text-align: center;
+}
+.form-section .cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
 }
